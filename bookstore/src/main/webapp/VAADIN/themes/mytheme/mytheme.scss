@@ -1,0 +1,22 @@
+$v-font-size:18px;
+@import "../valo/valo.scss";
+@import "css/login.scss";
+@import "css/main.scss";
+@mixin mytheme {
+	@include valo;
+	
+	.v-customlayout {
+		height: 100%;
+		overflow: visible;
+	}
+	
+	/* Style for main page */
+	.main{
+		@include main;
+	}
+
+	/* Style for login page */ 
+	.login{
+		@include login;
+	}
+}

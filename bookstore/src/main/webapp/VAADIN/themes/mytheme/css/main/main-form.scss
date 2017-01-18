@@ -1,0 +1,16 @@
+@mixin main-form{
+	
+	$multicol-width: 50px;
+	$multicol-numcol: 2;
+	.v-select-optiongroup-multicol {
+	    width: ($multicol-width + 2.6*$v-font-size) * $multicol-numcol;
+	    /* Multiple of the width of individual items, specified the amount of columns */
+	    /* You can leave it undefined: then there will be as many columns as there is space in the layout */
+	    .v-select-option {
+		    float: left;
+		    width: $multicol-width;
+		    margin-top: $v-font-size/2;
+		}
+	}
+	padding: 20px;
+}

@@ -1,0 +1,5 @@
+Lexaden Vaadin 7 Integration
+Copyright 2012 Lexaden.com
+
+This product includes software developed by
+Lexaden.com (http://www.lexaden.com/)

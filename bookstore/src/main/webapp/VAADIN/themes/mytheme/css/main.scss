@@ -1,0 +1,13 @@
+@import "main/main-form.scss";
+@import "main/side-bar.scss";
+
+@mixin main {
+	
+	.main-form{
+		@include main-form;
+	}
+
+ 	.side-bar{
+		@include side-bar;
+	}
+}

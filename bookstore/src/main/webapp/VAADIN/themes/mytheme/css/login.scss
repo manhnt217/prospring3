@@ -1,0 +1,6 @@
+@mixin login {
+	.login-form{
+		border-radius: $v-font-size/3;
+		padding: $v-font-size * 1.5;
+	}
+}

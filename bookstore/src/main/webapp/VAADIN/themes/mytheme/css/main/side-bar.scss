@@ -1,0 +1,18 @@
+/* $v-font-size:24px; */
+/* $v-included-components:
+    nativeselect
+    ; */
+ $pad-vertical: 20px;
+ $pad-horizontal: 20px;
+@mixin side-bar{
+/* 	@import "../valo/valo.scss"; */
+/* 	@include valo; */
+	select {
+		padding-left: $pad-horizontal;
+		padding-right: $pad-horizontal;
+		padding-top: $pad-vertical;
+		padding-bottom: $pad-vertical;
+		font-size: 24px;
+		height: 80%;
+	}
+}
